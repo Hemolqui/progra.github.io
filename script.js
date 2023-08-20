@@ -18,7 +18,7 @@ document.getElementById("userForm").addEventListener("submit", function(event) {
     })
     .then(response => response.json())
     .then(data => {
-        document.getElementById("message").textContent = "Usuario registrado: " + data.name + ", " + data.age + " años.";
+        document.getElementById("message").textContent = "Usuario registrado: " + data.name + ", " + data.age + " años. que waso soy esta con el bak local";
     })
     .catch(error => {
         document.getElementById("message").textContent = "Error al registrar el usuario.";
