@@ -1,7 +1,7 @@
 <?php
 
 // Configurar los encabezados CORS para permitir solicitudes desde tu sitio web en GitHub Pages
-header("Access-Control-Allow-Origin: https://hemolqui.github.io/prograasistencia.github.io/");
+header("Access-Control-Allow-Origin: https://hemolqui.github.io");
 
 // Resto de los encabezados CORS
 header("Access-Control-Allow-Methods: POST");
