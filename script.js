@@ -9,7 +9,7 @@ document.getElementById("userForm").addEventListener("submit", function(event) {
         age: age
     };
 
-    fetch("http://localhost/gituno/register.php", {
+    fetch("http://localhost/gitdos/register.php", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
